@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/weather">Weather</router-link> |
+      <router-link to="/about">Population</router-link> |
+      <router-link to="/economy">Economy</router-link> |
+      <router-link to="/">Traffic</router-link> 
+
     </nav>
     <router-view/>
   </div>

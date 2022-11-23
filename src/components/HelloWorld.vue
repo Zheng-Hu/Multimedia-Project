@@ -30,8 +30,9 @@
     </ul>
   </div>
 </template>
-
+<script src="./static/jquery-1.12.4.js"></script>
 <script>
+
 export default {
   name: 'HelloWorld',
   props: {
